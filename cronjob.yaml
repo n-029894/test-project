@@ -1,5 +1,5 @@
 # Kubernetes cronjob that runs every 5 minutes. It returns the current date and time in New York City.
-apiVersion: batch/v1beta1
+apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: cronjob
